@@ -1,0 +1,48 @@
+.class_confirmed {
+  background-color: #331427;
+}
+.App {
+  padding: 20px;
+  margin: 10px;
+}
+.class_active {
+  background-color: #132240;
+}
+.class_recovered {
+  background-color: #182829;
+}
+.class_deceased {
+  background-color: #1c1c2b;
+}
+.h1234 {
+  color: #cbd5e1;
+
+  margin-left: 50px;
+  width: 80vw;
+}
+.class_tested {
+  background-color: #230f41;
+}
+.bar2 {
+  display: none;
+}
+.bar12 {
+  display: block;
+}
+.trend2 {
+  display: none;
+}
+@media all and (max-width: 768px) {
+  .bar12 {
+    display: none;
+  }
+  .bar2 {
+    display: block;
+  }
+  .trend1 {
+    display: none;
+  }
+  .trend2 {
+    display: block;
+  }
+}
